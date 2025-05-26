@@ -1,2 +1,3 @@
-# cloud-foundations-week1
-My week 1 notes and projects for the cloud roadmap
+# Week 1: AWS Static Website
+## Progress
+- Starting my Cloud Support journey!
