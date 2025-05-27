@@ -7,3 +7,5 @@
 - Uploaded resume to LinkedIn, highlighting technical support and automation skills.
 - Joined r/aws community on Reddit using existing account for networking.
 - Tested draw.io by creating an EC2-S3 diagram, preparing for the Week 1 architecture diagram.
+- Finished AWS Cloud Practitioner Essentials Module 1 and aced the quiz (3/3 correct).
+- Set $5/month budget alert in AWS to manage costs, with thresholds at 80% ($4) and 100% ($5).
