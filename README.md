@@ -9,3 +9,5 @@
 - Tested draw.io by creating an EC2-S3 diagram, preparing for the Week 1 architecture diagram.
 - Finished AWS Cloud Practitioner Essentials Module 1 and aced the quiz (3/3 correct).
 - Set $5/month budget alert in AWS to manage costs, with thresholds at 80% ($4) and 100% ($5).
+- Completed AWS Cloud Practitioner Essentials Module 2 (compute services: EKS, ECS, SNS, SQS) and took the quiz.
+- Explored AWS Console (EC2, S3, VPC)
