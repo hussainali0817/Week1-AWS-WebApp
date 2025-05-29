@@ -11,3 +11,6 @@
 - Set $5/month budget alert in AWS to manage costs, with thresholds at 80% ($4) and 100% ($5).
 - Completed AWS Cloud Practitioner Essentials Module 2 (compute services: EKS, ECS, SNS, SQS) and took the quiz.
 - Explored AWS Console (EC2, S3, VPC)
+- Read AWS EC2 Lab intro to prepare for instance setup.
+- Launched an EC2 instance (Amazon Linux 2, t2.micro, Instance ID: [i-0bf4f1fd1fa058314], Public DNS: ec2-3-133-89-50.us-east-2.compute.amazonaws.com), saved .pem key securely, and connected via SSH on Windows.
+- Created S3 test bucket (week1-test-bucket-hussain) and uploaded test.txt for Week 1 project.
