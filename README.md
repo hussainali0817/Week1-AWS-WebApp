@@ -14,3 +14,8 @@
 - Read AWS EC2 Lab intro to prepare for instance setup.
 - Launched an EC2 instance (Amazon Linux 2, t2.micro, Instance ID: [i-0bf4f1fd1fa058314], Public DNS: ec2-3-133-89-50.us-east-2.compute.amazonaws.com), saved .pem key securely, and connected via SSH on Windows.
 - Created S3 test bucket (week1-test-bucket-hussain) and uploaded test.txt for Week 1 project.
+## Friday, May 30, 2025: EC2 Static Website Setup
+- Installed Apache on EC2 instance (Amazon Linux 2, t2.micro, Public DNS: ec2-3-133-89-50.us-east-2.compute.amazonaws.com) using `sudo yum install httpd -y`, started and enabled with `systemctl`, verified with `curl localhost`.
+- Deployed website files: Downloaded test.txt from S3, uploaded to /var/www/html/, created index.html ("Hello World" page with link to test.txt), set permissions, tested with `curl localhost`.
+- Configured EC2 security group: Added HTTP rule (port 80, source: Anywhere), tested website in browser (`http://ec2-3-133-89-50.us-east-2.compute.amazonaws.com`), confirmed test.txt link worked.
+- Stopped EC2 instance to pause Free Tier usage.
