@@ -19,3 +19,6 @@
 - Deployed website files: Downloaded test.txt from S3, uploaded to /var/www/html/, created index.html ("Hello World" page with link to test.txt), set permissions, tested with `curl localhost`.
 - Configured EC2 security group: Added HTTP rule (port 80, source: Anywhere), tested website in browser (`http://ec2-3-133-89-50.us-east-2.compute.amazonaws.com`), confirmed test.txt link worked.
 - Stopped EC2 instance to pause Free Tier usage.
+## Monday, June 2, 2025: Home Lab Network Setup
+- Configured home lab network: Enabled DHCP on AT&T router (IP: 192.168.1.254, range: 192.168.1.64–192.168.1.253), assigned static IPs (desktop: 192.168.1.10 via Ethernet settings, Ubuntu VM: 192.168.1.11 via /etc/netplan/01-network-manager-all.yaml in VirtualBox, Bridged Adapter, interface: enp0s3). Tested connectivity with ping (desktop to VM: 192.168.1.11, VM to desktop: 192.168.1.10), 0% packet loss after troubleshooting (enabled ICMP via Windows Defender Firewall).
+- Simulated IP conflict: Changed VM IP to 192.168.1.10 (same as desktop), ping failed (Request timed out). Troubleshooted: Checked IPs with `ip addr` (VM) and `ipconfig` (desktop), identified conflict, reverted VM to 192.168.1.11, retested connectivity—successful (ping replies: 0% packet loss).
